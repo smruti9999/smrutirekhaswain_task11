@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mini Project | Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+    <!-- Start Logo and Menu -->
+      <header>
+        <nav class="navbar">
+            <div class="logo">
+              <img src="https://www.asics.co.in/logo-rxE.svg">
+            </div>
+            <ul class="nav-links">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Brands</a></li>
+               <li><a href="#">More</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+               <button>🔍Search</button>
+               <button class="cart-btn">🛒0</button>
+               <img src="https://img.magnific.com/premium-vector/business-woman-character-vector-illustration_1133257-2432.jpg?semt=ais_hybrid&w=740&q=80" class="user">
+            </div>
+         <button class="hamburger-btn">
+            ☰
+         </button>
+         <!-- start Mobile Menu -->
+          <div class="mobile-menu">
+          <ul>
+              <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Brands</a></li>
+               <li><a href="#">More</a></li>
+               <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+     </header>
+     <section class="cart-container">
+        <div class="cart-left">
+            <h1>Shopping Cart</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="product-info">
+                            <img src="https://images.unsplash.com/photo-1620790458588-c6c4a0d68a84?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                            <span>Seven By MS Dhoni Womens</span>
+                        </td>
+                        <td>- 1 +</td>
+                         <td>1999</td>
+                        <td><button class="remove">❌</button></td>
+                    </tr>
+                     <tr>
+                        <td class="product-info">
+                            <img src="https://images.unsplash.com/photo-1641481739198-fc3eb4e8808b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                            <span>Seven By MS Dhoni Womens</span>
+                        </td>
+                        <td>- 1 +</td>
+                        <td>1299</td>
+                        <td><button class="remove">❌</button></td>
+                    </tr>
+                     <tr>
+                        <td class="product-info">
+                            <img src="https://images.unsplash.com/photo-1709292274028-4a59346f2d5a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                            <span>Seven By MS Dhoni Womens</span>
+                        </td>
+                        <td>- 1 +</td>
+                        <td>1499</td>
+                        <td><button class="remove">❌</button></td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+<div class="cart-right">
+<div class="summary-card">
+    <h2>Order Details</h2>
+    <input type="text" placeholder="Enter Coupon Code">
+    <button class="coupon-btn">Apply</button>
+    <div class="summary-row">
+        <span>Subtotal:</span>
+        <span>4700</span>
+    </div>
+     <div class="summary-row">
+        <span>Taxes(Applicable):</span>
+        <span>Rs.199</span>
+    </div>
+     <div class="summary-row">
+        <span>Discount:</span>
+        <span>0</span>
+    </div>
+    <hr>
+    <div class="summary-row total">
+        <span>Total:</span>
+        <span>Rs.4999</span>
+    </div>
+
+    <button class="paynow-btn">Paynow Rs.4999</button>
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/razorpay-icon.png" style="width:80px;">
+    <img src="https://static.vecteezy.com/system/resources/previews/029/899/733/non_2x/secure-payment-credit-card-icon-with-shield-secure-transaction-stock-illustration-vector.jpg" style="width:100px;">
+    </div>
+    </div>
+  </section>
+     <div class="continue-shopping">
+      <h4> < Continue Shopping </h4>
+     </div>
+     <br><br>
+     </body>
+     </html>
